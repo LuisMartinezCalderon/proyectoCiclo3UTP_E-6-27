@@ -23,10 +23,10 @@ Miembros del equipo
 
 <!-- Equipo de desarroladores, (vease [contributors](../../graphs/contributors)): -->
 Equipo de desarroladores:
-  - **Isabella Riveira** (dev1@mail.com)
-  - **Jose Felipe Escobar** (dev2@mail.com)
-  - **Luis Alberto Martinez Calderon** (dev3@mail.com)
-  - **Alex Lopez** (dev3@mail.com)
+  - **Isabella Riveira** (iriveira@iecasdvalledupar.edu.co)
+  - **Jose Felipe Escobar Ballesta** (jfejose10@gmail.com)
+  - **Luis Alberto Martinez Calderon** (mm6704924@gmail.com)
+  - **Alex Roman Lopez Coy** (alex.roman.lopez@gmail.com)
 
 Scrum Master:
   - **Alex Lopez** (scrum.master@mail.com)
