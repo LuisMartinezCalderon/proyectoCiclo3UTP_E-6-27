@@ -27,9 +27,10 @@ Equipo de desarroladores:
   - **Jose Felipe Escobar Ballesta** (jfejose10@gmail.com)
   - **Luis Alberto Martinez Calderon** (mm6704924@gmail.com)
   - **Alex Roman Lopez Coy** (alex.roman.lopez@gmail.com)
+  - **Sebastian Pareja Lozano** (sebastian200431@gmail.com)
 
 Scrum Master:
-  - **Alex Lopez** (scrum.master@mail.com)
+  - **Alex Roman Lopez Coy** (scrum.master@mail.com)
 
 Product Owner:
   - **David Valero** (product.owner@acme.com)
