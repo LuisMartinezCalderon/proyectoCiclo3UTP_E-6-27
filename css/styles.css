@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 body{
     background: rgb(227, 231, 230);
@@ -34,7 +34,7 @@ p{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 95%;
     margin-top: 30px; 
     text-align: center;
 }
@@ -117,11 +117,15 @@ nav a:focus{
     display: flex;
 
 }
+.conteiner__servicios h3{
+    font-size: 60%;
+}
 .servicios{
     margin-left: 3px;
     margin-right: 3px;
     width: 45%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -129,36 +133,39 @@ nav a:focus{
 }
 .servicios:first-child{
     width: 45%;
-    height:400px;
+   
     background:#ecb;;
 }
 .servicios:nth-child(2){
     width: 45%;
-    height:400px;
+ 
     background:#ecb;;
 }
 .servicios:nth-child(3){
     width: 45%;
-    height:400px;
+  
     background-color:#ecb;;
 }
 
 .ImagenPython{
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+   
+    object-fit: contain;
+  
+    height: 190px;
     padding: 30px;
 }
 .Imagenjavascript{
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+    object-fit: contain;
+  
+    height: 160px;
+  
     padding: 30px;
 }
 .Imagenhtml{
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+    object-fit: contain;
+    height: 160px;
+   
+ 
     padding: 30px;
 }
 .Servparrafo{
@@ -178,24 +185,26 @@ nav a:focus{
 }
 .noticia{
    display: flex;
-   margin:auto;
+   margin-left: 3px;
    width:100%;
    background:#ecb;
 }
 
 .noticia:first-child{
-    display: flex;
+   
     width:49.50%;
-    height: 385px;
     margin-bottom: 3px;
     
 }
 
 .noticia:nth-child(2){
+    display: flex;
     width:49.50%;
+   
     margin-bottom: 3px;
 }    
 .noticia:nth-child(3){
+    display: flex;
     width:49.50%;
 }    
 .noticia:nth-child(4){
@@ -205,22 +214,22 @@ nav a:focus{
     width: 40%;
     height: 300px;
     object-fit: cover;
-    padding: 30px;
+    padding: 3%;
    
   
  }
 .parrafo__noticia{
     font-size: 15px;
     text-align: justify;
-    padding: 20px;
+    padding: 2%;
 }
 /* Line bajo el titulo de las noticias */
 .conted{
     border-top: 3px solid #ffffff;
-    height: 20px;
+    height: 2%;
     width: 88%;
     padding: 0;
-    margin: 10px auto 0 auto;
+    margin: 1% auto 0 auto;
 
  
 }
@@ -262,11 +271,41 @@ nav a:focus{
 
 /*seccion footer*/
 .footer{
-    height: 50px;
+    width: 100%;
+    font-size: 11px;
     background:#000;
     color: #fff;
     display: flex;
-    align-items: center;
-    justify-content:center;
+    line-height: .1;
+   
 
+}
+footer.icono__git{
+    width: 30px;
+    background: rgb(5, 177, 207);
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+
+.footer img{
+    width: 30px;
+    background: rgb(5, 177, 207);
+    border-radius: 10px;
+   
+    
+}
+footer ul{
+    width: 190px;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+ 
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
